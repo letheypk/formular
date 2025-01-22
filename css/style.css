@@ -93,9 +93,8 @@ body {
   
 .frm-s2 input:focus {
     outline: none;
-    border-bottom-color: black; /* Change bottom border color on focus */
+    border-bottom-color: black; 
 }
-  
 .frm-s2 input::placeholder {
     transition: all ease-in-out 0.5s;
     color: white;
@@ -133,7 +132,6 @@ body {
     background-color: #00ffff8d; 
 }
 
-/* CSS */
 .btn {
   align-items: center;
   background-image: linear-gradient(144deg,#ff0000, #00DDEB);
