@@ -29,7 +29,7 @@
             </nav>
         </div>
     </header>
-    <form action="" class="formular-main">
+    <form name="contactForm" action="" class="formular-main">
         <section class="frm-s1">
             <h1>Fill the form</h1>
             <span>Required fields are follower by *</span>
@@ -39,26 +39,28 @@
                 <span>Name</span>
                 <strong><span aria-label="required">*</span></strong>
             </label>
-            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="text" id="name" name="name" placeholder="Name" required="required">
             <label for="surname">
                 <span>Surname</span>
                 <strong><span aria-label="required">*</span></strong>
             </label>
-            <input type="text" id="surname" name="surname" placeholder="Surname" required>
+            <input type="text" id="surname" name="surname" placeholder="Surname" required="required">
             <label for="email">
                 <span>E-mail</span>
                 <strong><span aria-label="required">*</span></strong>
             </label>
-            <input type="text" id="email" name="email" placeholder="E-mail" required>
+            <input type="text" id="email" name="email" placeholder="E-mail" required="required">
             <label for="tel">
                 <span>Tel.</span>
                 <strong><span aria-label="required">*</span></strong>
             </label>
-            <input type="tel" id="tel" name="tel" placeholder="Tel.:" required>
+            <input type="tel" id="tel" name="tel" placeholder="Tel.:" required="required">
+            
         </section>
         <div class="btn-form">
-            <button class="btn" role="button"><span class="text">Send</span></button>
+            <button class="btn" type="button" role="button"><span class="text">Send</span></button>
         </div>
     </form>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
